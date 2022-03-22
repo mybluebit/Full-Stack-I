@@ -46,6 +46,7 @@ function findOddOrEven (){
     console.log("\n");  
 }
 
+
 findOddOrEven ();
 // End of Exercise 3
 
@@ -113,7 +114,7 @@ console.log ("\nExercise 7: findFacts\n\n");
 
 function findFacts(arr){
     console.log (arr.name,"Has a poplulation of",arr.population.toLocaleString(), "and is located in",arr.continent);
-// }
+}
 
 var arr =  ({name: "Toronto" , population:6197000 , continent: "Nortth America"});
 // console.log (arr);
